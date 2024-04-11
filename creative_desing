@@ -1,1 +1,58 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Cabecera -->
+    <header>
+        <!-- Navegación -->
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Buscar</a></li>
+                <li><a href="#">Tu biblioteca</a></li>
+                <li><a href="#">Crear lista de reproducción</a></li>
+                <li><a href="#">Centro de seguridad legal y privacidad</a></li>
+                <li><a href="#">Registrarse</a></li>
+                <li><a href="#">Iniciar sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Cuerpo principal -->
+    <main>
+        <!-- Portada -->
+        <section id="banner">
+            <h1>Crea tu primera lista de reproducción</h1>
+            <p>Es fácil, te ayudaremos</p>
+            <button>Crear lista de reproducción</button>
+        </section>
+        <!-- Artistas populares -->
+        <section id="popular-artists">
+            <h2>Artistas populares</h2>
+            <ul>
+                <li><a href="#">Feid</a></li>
+                <li><a href="#">KAROL G</a></li>
+                <li><a href="#">Bad Bunny</a></li>
+                <li><a href="#">Maluma</a></li>
+                <li><a href="#">Don Omar</a></li>
+            </ul>
+        </section>
+        <!-- Álbumes populares -->
+        <section id="popular-albums">
+            <h2>Álbumes populares</h2>
+            <ul>
+                <li><a href="#">NADIE SABE LO QUE VA A PASAR MAÑANA</a></li>
+                <li><a href="#">MANANA SERA BONITO</a></li>
+                <li><a href="#">RODILLAS</a></li>
+            </ul>
+        </section>
+    </main>
+    <!-- Pie de página -->
+    <footer>
+        <p>Centro de seguridad legal y privacidad | Política de privacidad | Cookies | Acerca de los anuncios | Accesibilidad | Cookies | Inglés</p>
+    </footer>
+</body>
+</html>
